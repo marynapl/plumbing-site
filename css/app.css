@@ -18,43 +18,42 @@ main {
   position: relative;
 }
 
+footer a {
+  color: #0a0a0a;
+}
+
+.text-small {
+  font-size: 80%;
+}
+
+.header-wrapper {
+  padding: 1rem 0;
+}
+
 .banner-container {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/kran.jpg);
     background-position: center center, center calc(50% - 1rem);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 25rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     text-align: center;
     color: #fff;
-
-
-  /*background: #fff url(../images/kran.jpg) center/cover no-repeat;
-  color: #fff;
-  height: 13rem;
-  min-height: 14rem;
-  padding-bottom: 2rem;*/
-  position: relative;
-  z-index: 1;
+    position: relative;
+    z-index: 1;
 }
 
 .banner-container .row {
   width: 100%;
 }
 
-.banner-container {
-  /*background-image: url(../images/kran.jpg);
-  background-position: center calc(50% + 0rem);
-  background-size: cover;
-  
-  height: 33rem;
-  padding-bottom: 6rem;*/
-}
-
 .banner-container h1 {
-  font-size: 2.929rem;
-  font-weight: 700;
+  font-size: 2.2rem;
   opacity: 1;
   text-shadow: 0 3px 4px rgba(0,0,0,.7);
   color: #fff;
@@ -71,6 +70,10 @@ main {
   .banner-container {
     min-height: 30rem;
     text-align: left;
+  }
+
+  .banner-container h1 {
+    font-size: 3rem;
   }
 }
 
