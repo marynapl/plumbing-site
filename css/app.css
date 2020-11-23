@@ -91,8 +91,6 @@ footer a {
   color: #fff;
 }
 
-
-
 .button-icon {
   margin-right: .5rem;
 }
@@ -103,6 +101,31 @@ footer a {
 
 .margin-bottom-1x {
   margin-bottom: 1rem;
+}
+
+.margin-bottom-2x {
+  margin-bottom: 2rem;
+}
+
+.margin-bottom-4x {
+  margin-bottom: 4rem;
+}
+
+.gallery-thumbs, 
+.gallery-thumbs-vertical {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.gallery-thumbs a {
+  margin: .0 0 1rem;
+  flex-basis: 30.5%;
+}
+
+.gallery-thumbs-vertical a {
+  margin: .0 0 1rem;
+  flex-basis: 22%;
 }
 
 
